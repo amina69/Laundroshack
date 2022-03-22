@@ -44,6 +44,10 @@
         display: none;
     }
 
+    .text-side .listed span{
+        padding-left: 0;
+    }
+
     .list img{
         width: 25px;
     }
