@@ -49,6 +49,10 @@ section{
     font-size: 18px
 }
 
+.section-2{
+    margin-left: auto
+}
+
 .intro-btn{
     background-color: rgb(38, 68, 97);
     padding: 8px;
@@ -313,7 +317,6 @@ ul li{
     font-size: 15px;
     margin-left: 15px;
 }
-
 
 .follow a{
     text-decoration: none;

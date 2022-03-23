@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 576px) {
 
     .navbar{
         text-align: center;
@@ -25,6 +25,10 @@
         margin-bottom: 0
     }
 
+    section{
+        padding: 40px 0;
+    }
+
     /*Changes*/
     .section-1{
         /*background: none;*/
@@ -34,6 +38,10 @@
         background-position: right center;
         padding: 60px 0;
         color: white;
+    }
+
+    .section-2{
+        margin-right: auto
     }
 
     .scroll{
@@ -163,6 +171,152 @@
     
     .last .last-P{
         font-size: 12px;
+    }
+
+    .need input{
+        border-radius: 5px;
+    }
+
+    .need button{
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .scroll{
+        display: block;
+        position: absolute;
+        top: 650px;
+        left: 250px;
+    }
+
+    section{
+        padding: 40px 0;
+    }
+
+    .section-1{
+        /*background: none;*/
+        background: url("../assets/header-sq.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        padding: 60px 0;
+        color: white;
+    }
+    
+    section .left{
+        display: none
+    }
+
+    .section-2{
+        margin-right: auto
+    }
+
+    .section-2-head{
+        margin-top: 120px;
+        color: rgb(31, 56, 78)
+    }
+
+    .image-side img{
+        display: none;
+    }
+
+    .list span, .section-3 p{
+        font-size: 23px;
+    }
+
+    .listed{
+        border-top: 3px #e9cdc9 dashed;
+        border-bottom: 3px #e9cdc9 dashed;
+    }
+
+    .get-started img{
+        width: 130px;
+    }
+
+    .get-started-img img{
+        display: block;
+        width: 200px;
+        height: 400px;
+    }
+
+    .section-3{
+        width: 600px;
+    }
+
+    .case{
+        margin: 0 0 20px 0;
+    }
+
+    .section-4 img {
+        width: 40px;
+    }
+
+    .footer{
+        height: 100%;
+    }
+
+    .need input{
+        border-radius: 5px;
+    }
+
+    .need button{
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 1000px) {
+    .section-1{
+        /*background: none;*/
+        background: url("../assets/header-sq.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        padding: 60px 0;
+        color: white;
+    }
+
+    .scroll{
+        display: block;
+        position: absolute;
+        top: 550px;
+        left: 250px;
+    }
+
+    section .left{
+        display: none
+    }
+
+    .section-2{
+        margin-right: auto
+    }
+
+    .section-2-head{
+        margin-top: 120px;
+        color: rgb(31, 56, 78)
+    }
+
+    .case{
+        margin: 0 0 20px 0;
+    }
+
+    .image-side img{
+        width: 400px;
+        height: 600px;
+    }
+
+    .listed{
+        width: 450px;
+    }
+
+    .list span, .section-3 p{
+        width: 450px;
+    }
+
+    .footer{
+        height: 100%;
     }
 
 }
